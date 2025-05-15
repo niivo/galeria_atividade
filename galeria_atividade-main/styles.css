@@ -1,17 +1,69 @@
 body{
-    display: flex;
-    width: 100vw;
-    height: 100vh;
+    background-color: rgb(223, 219, 219);
 }
+
 .logo {
-    width: 200px;
-    height: 200px;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-.logo-container{
-    width: 100%;
-    height: 100%;
     display: flex;
+    justify-content: center;
 }
+
+.gatoslogo {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.gatos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+  .gatos img{
+    width: 200px;
+    height: 170px;
+    object-fit: cover;
+  }
+
+  .motoslogo {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+  .motos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+
+  .motos img{
+    width: 200px;
+    height: 170px;
+    object-fit: cover;
+    display: flex;
+    
+  }
+
+  .rocklogo {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+
+  .rock{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+
+   .rock img{
+    max-width: 100%;
+    height: 170px;
+    object-fit: cover;
+    display: flex;
+    
+  }
